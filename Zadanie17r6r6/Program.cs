@@ -1,6 +1,4 @@
-﻿using Zadanie17r6r6;
-
-Obychnyi obychnyi = new Obychnyi();
+﻿Obychnyi obychnyi = new Obychnyi();
 Zarplatnyi zarplatnyi = new Zarplatnyi();
 
 Calculator.PopolnenieSnyatie(zarplatnyi, 700);  //  пополнение
@@ -25,5 +23,3 @@ Calculator.CalculateInterest(zarplatnyi);   //  расчёт процентов
 Calculator.CalculateInterest(obychnyi);
 Pokazer.ShowInterest(zarplatnyi);
 Pokazer.ShowInterest(obychnyi);
-
-

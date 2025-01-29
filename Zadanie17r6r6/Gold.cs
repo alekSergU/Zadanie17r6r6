@@ -1,12 +1,10 @@
-﻿namespace Zadanie17r6r6
+﻿namespace Zadanie17r6r6;
+public class Gold : Account
 {
-    public class Gold : Account
+    private double Procc { get; set; }
+    protected override double RaschetProcPribyli(double balance)
     {
-        private double Procc { get; set; }
-        protected override double RaschetProcPribyli(double balance)
-        {
-            // Procc = ...
-            return 0;
-        }
+        // Procc = ...
+        return 0;
     }
 }
